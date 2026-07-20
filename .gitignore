@@ -1,0 +1,41 @@
+# Environnements virtuels
+venv/
+env/
+.venv/
+ENV/
+
+# Modèles entraînés (souvent trop lourds pour Git)
+*.pkl
+*.joblib
+src/churn_model.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Environnement / config
+.env
+.env.local
+
+# Données brutes volumineuses (à adapter selon ton cas)
+data/raw/
+*.csv
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
