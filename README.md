@@ -1,3 +1,4 @@
+
 # Tunisia Telecom Churn Prediction
 
 Projet de machine learning pour prédire le désabonnement (churn) des clients télécom, avec une application interactive Streamlit permettant de tester le modèle en temps réel.
@@ -82,3 +83,6 @@ Python, Pandas, Scikit-learn, XGBoost, SHAP, Streamlit, Matplotlib/Seaborn, Jobl
 - Feature engineering additionnel (segments clients, interactions)
 - Validation croisée plus poussée
 - Suivi de la dérive du modèle en production (monitoring)
+=======
+# tunisia-telecom-churn
+>>>>>>> eae0a69c00e0b72b3653ea5ebeec914a66d5f4dc
